@@ -6,6 +6,33 @@ import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(useGSAP);
 
+const workItems = [
+  {
+    number: "01",
+    title: "Enterprise GenAI RAG Copilot",
+    category: "AI & Data Science",
+    tools: "LLaMA-3, RAG, Vector Databases",
+    image: "/images/feedback.webp",
+    alt: "Enterprise GenAI Copilot project",
+  },
+  {
+    number: "02",
+    title: "Multi-Modal Fake News Detection",
+    category: "Machine Learning",
+    tools: "Transformer NLP, CNN, Explainable AI",
+    image: "/images/ecommerce.webp",
+    alt: "Fake News Detection project",
+  },
+  {
+    number: "03",
+    title: "Hospital Management System",
+    category: "Web Development",
+    tools: "Python, Django, Database",
+    image: "/images/weather.jpeg",
+    alt: "Hospital Management project",
+  },
+];
+
 const Work = () => {
   useGSAP(() => {
   let translateX: number = 0;
@@ -53,21 +80,21 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {[...Array(6)].map((_value, index) => (
-            <div className="work-box" key={index}>
+          {workItems.map((item) => (
+            <div className="work-box" key={item.number}>
               <div className="work-info">
                 <div className="work-title">
-                  <h3>0{index + 1}</h3>
+                  <h3>{item.number}</h3>
 
                   <div>
-                    <h4>Project Name</h4>
-                    <p>Category</p>
+                    <h4>{item.title}</h4>
+                    <p>{item.category}</p>
                   </div>
                 </div>
                 <h4>Tools and features</h4>
-                <p>Javascript, TypeScript, React, Threejs</p>
+                <p>{item.tools}</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <WorkImage image={item.image} alt={item.alt} />
             </div>
           ))}
         </div>

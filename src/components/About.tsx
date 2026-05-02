@@ -6,9 +6,11 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          I am a focused Computer Engineering student with strong skills in Python and machine learning frameworks. I
+          have a solid understanding of software development principles and enjoy working on solutions that create
+          real-world impact. Committed to continuous learning and contributing effectively in collaborative, high-
+          performing teams. Passionate about delivering outstanding quality and service. Self-motivated to consistently
+          provide first-class results in line with stringent targets and deadlines.
         </p>
       </div>
     </div>

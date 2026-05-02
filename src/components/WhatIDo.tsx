@@ -87,24 +87,19 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DEVELOP</h3>
+              <h3>Machine Learning</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                Passionate about Data Science, Machine Learning, and Deep Learning. Experienced in developing
+                enterprise-ready Generative AI copilots using open-source LLMs like LLaMA-3 and RAG.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Css</div>
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">Python</div>
+                <div className="what-tags">LLaMA-3</div>
+                <div className="what-tags">RAG</div>
+                <div className="what-tags">Deep Learning</div>
+                <div className="what-tags">Agentic AI</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -128,22 +123,20 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
+              <h3>Full Stack Dev</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                Skilled in building scalable web applications and management systems. Experienced with Python, Django,
+                and the MERN Stack. Proficient in database management using MySQL, MongoDB, and SQLite.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">Django</div>
+                <div className="what-tags">MERN Stack</div>
+                <div className="what-tags">JavaScript</div>
+                <div className="what-tags">MySQL</div>
+                <div className="what-tags">MongoDB</div>
+                <div className="what-tags">Java</div>
               </div>
               <div className="what-arrow"></div>
             </div>
