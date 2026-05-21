@@ -90,16 +90,16 @@ const WhatIDo = () => {
               <h3>Machine Learning</h3>
               <h4>Description</h4>
               <p>
-                Passionate about Data Science, Machine Learning, and Deep Learning. Experienced in developing
-                enterprise-ready Generative AI copilots using open-source LLMs like LLaMA-3 and RAG.
+                Focused on data science, machine learning, and backend automation. Comfortable building intelligent
+                systems that use Python, analytics, and model-driven decision support.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Python</div>
-                <div className="what-tags">LLaMA-3</div>
-                <div className="what-tags">RAG</div>
+                <div className="what-tags">Data Science</div>
+                <div className="what-tags">Analytics</div>
                 <div className="what-tags">Deep Learning</div>
-                <div className="what-tags">Agentic AI</div>
+                <div className="what-tags">ML Models</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -126,17 +126,20 @@ const WhatIDo = () => {
               <h3>Full Stack Dev</h3>
               <h4>Description</h4>
               <p>
-                Skilled in building scalable web applications and management systems. Experienced with Python, Django,
-                and the MERN Stack. Proficient in database management using MySQL, MongoDB, and SQLite.
+                Skilled in building scalable web applications and management systems. Experienced with HTML, CSS,
+                JavaScript, ReactJS, NodeJS, ExpressJS, MySQL, MongoDB, and SQLite.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Django</div>
-                <div className="what-tags">MERN Stack</div>
+                <div className="what-tags">HTML</div>
+                <div className="what-tags">CSS</div>
                 <div className="what-tags">JavaScript</div>
+                <div className="what-tags">ReactJS</div>
+                <div className="what-tags">NodeJS</div>
+                <div className="what-tags">ExpressJS</div>
                 <div className="what-tags">MySQL</div>
                 <div className="what-tags">MongoDB</div>
-                <div className="what-tags">Java</div>
+                <div className="what-tags">SQLite</div>
               </div>
               <div className="what-arrow"></div>
             </div>

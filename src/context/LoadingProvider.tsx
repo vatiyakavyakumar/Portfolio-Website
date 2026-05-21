@@ -28,6 +28,14 @@ export const LoadingProvider = ({ children }: PropsWithChildren) => {
 
   return (
     <LoadingContext.Provider value={value as LoadingType}>
+      <div className="sky-layers" aria-hidden="true">
+        <span className="sky-layer sky-layer-1" />
+        <span className="sky-layer sky-layer-2" />
+        <span className="sky-layer sky-layer-3" />
+        <span className="sky-layer sky-layer-4" />
+        <span className="sky-layer sky-layer-5" />
+        <span className="sky-layer sky-layer-6" />
+      </div>
       {isLoading && <Loading percent={loading} />}
       <main className="main-body">{children}</main>
     </LoadingContext.Provider>

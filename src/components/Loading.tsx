@@ -38,15 +38,23 @@ const Loading = ({ percent }: { percent: number }) => {
     const rect = target.getBoundingClientRect();
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
+    const tiltX = ((x / rect.width) - 0.5) * 16;
+    const tiltY = ((y / rect.height) - 0.5) * -16;
+    const eyeX = ((x / rect.width) - 0.5) * 8;
+    const eyeY = ((y / rect.height) - 0.5) * 8;
     target.style.setProperty("--mouse-x", `${x}px`);
     target.style.setProperty("--mouse-y", `${y}px`);
+    target.style.setProperty("--tilt-x", `${tiltX}deg`);
+    target.style.setProperty("--tilt-y", `${tiltY}deg`);
+    target.style.setProperty("--eye-x", `${eyeX}px`);
+    target.style.setProperty("--eye-y", `${eyeY}px`);
   }
 
   return (
     <>
       <div className="loading-header">
         <a href="/#" className="loader-title" data-cursor="disable">
-          Meet
+          kavyakumar
         </a>
         <div className={`loaderGame ${clicked && "loader-out"}`}>
           <div className="loaderGame-container">
@@ -72,6 +80,9 @@ const Loading = ({ percent }: { percent: number }) => {
         >
           <div className="loading-hover"></div>
           <div className={`loading-button ${loaded && "loading-complete"}`}>
+            <div className="loading-photo" aria-hidden="true">
+              <img src="/images/loading-avatar.png" alt="" />
+            </div>
             <div className="loading-container">
               <div className="loading-content">
                 <div className="loading-content-in">

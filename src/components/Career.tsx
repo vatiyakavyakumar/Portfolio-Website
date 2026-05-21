@@ -5,7 +5,7 @@ const Career = () => {
     <div className="career-section section-container">
       <div className="career-container">
         <h2>
-          Graduation <span>&</span>
+          Education <span>&</span>
           <br /> Certificate
         </h2>
         <div className="career-info">
@@ -21,21 +21,25 @@ const Career = () => {
               <h3>2023 - Present</h3>
             </div>
             <p>
-              Currently pursuing Bachelor of Engineering in Computer Engineering.
+              Bachelor of Engineering in Computer Engineering.
               <br />
-              Sem 1: 8.50 SPI | Sem 2: 7.0 SPI | Sem 3: 9.50 SPI | Sem 4: 8.88 SPI
+              Ahmedabad, Gujarat
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>High School (HSC)</h4>
-                <h5>Gujarat Board</h5>
+                <h4>Certificates</h4>
+                <h5>Learning & Development</h5>
               </div>
-              <h3>2023</h3>
+              <h3>3 Courses</h3>
             </div>
             <p>
-              Completed Higher Secondary Certificate with 83%.
+              DBMS Course - Master the Fundamentals and Advanced Concepts
+              <br />
+              Exploratory Data Analysis for Machine Learning
+              <br />
+              Inheritance and Data Structures in Java
             </p>
           </div>
         </div>

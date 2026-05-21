@@ -154,16 +154,37 @@ const TechStack = () => {
     };
   }, []);
   const materials = useMemo(() => {
+    const palette = [
+      "#7dd3fc",
+      "#a78bfa",
+      "#34d399",
+      "#60a5fa",
+      "#f472b6",
+      "#38bdf8",
+      "#818cf8",
+      "#2dd4bf",
+      "#c084fc",
+      "#22c55e",
+    ];
+
     return textures.map(
-      (texture) =>
+      (texture, index) =>
         new THREE.MeshPhysicalMaterial({
           map: texture,
-          emissive: "#ffffff",
+          color: palette[index % palette.length],
+          emissive: "#000000",
           emissiveMap: texture,
-          emissiveIntensity: 0.3,
-          metalness: 0.5,
-          roughness: 1,
-          clearcoat: 0.1,
+          emissiveIntensity: 0,
+          metalness: 0.08,
+          roughness: 0.09,
+          clearcoat: 0.9,
+          clearcoatRoughness: 0.1,
+          transmission: 0.84,
+          thickness: 1.35,
+          ior: 1.45,
+          transparent: true,
+          opacity: 0.5,
+          depthWrite: false,
         })
     );
   }, []);

@@ -10,58 +10,53 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="mailto:hettummar9251@gmail.com" data-cursor="disable">
-                hettummar9251@gmail.com
+              <a href="mailto:vatiyakavy3@gmail.com" data-cursor="disable">
+                vatiyakavy3@gmail.com
               </a>
             </p>
             <h4>Phone</h4>
             <p>
-              <a href="tel:+917861810676" data-cursor="disable">
-                +91 78618 10676
+              <a href="tel:+919913703730" data-cursor="disable">
+                +919913703730
               </a>
             </p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Github <MdArrowOutward />
-            </a>
-            <a
               href="https://www.linkedin.com"
               target="_blank"
+              rel="noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
-              Linkedin <MdArrowOutward />
+              LinkedIn <MdArrowOutward />
             </a>
             <a
-              href="https://x.com"
+              href="https://github.com"
               target="_blank"
+              rel="noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
-              Twitter <MdArrowOutward />
+              GitHub <MdArrowOutward />
             </a>
             <a
-              href="https://www.instagram.com"
+              href="mailto:vatiyakavy3@gmail.com"
               target="_blank"
+              rel="noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
-              Instagram <MdArrowOutward />
+              Email <MdArrowOutward />
             </a>
           </div>
           <div className="contact-box">
             <h2>
-              Backend Developed <br /> by <span>Het Thummar</span>
+              Backend Developed <br /> by <span>Kavyakumar Vatiya</span>
             </h2>
             <h5>
-              <MdCopyright /> 2026
+              <MdCopyright /> 2025
             </h5>
           </div>
         </div>
